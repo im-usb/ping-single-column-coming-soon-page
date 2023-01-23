@@ -1,0 +1,128 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 712px;
+    max-height: 890px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.main .heading {
+    font-size: 48px;
+    line-height: 60px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.main .heading .heading-black {
+    color: #15202A;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main .heading .heading-grey {
+    color: #969696;
+    font-weight: 300;
+}
+
+.main .text {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.main .email {
+    padding-bottom: 90px;
+}
+
+.main .email .email-input{
+    padding: 19px 214px 19px 30px;
+    border-color: #C2D3FF;
+    border-radius: 28px;
+    border-style: solid;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.main .email .submit {
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 18px 68px;
+    border-radius: 28px;
+    border-style: solid;
+    background-color: #4C7BF3;
+    border-color: #4C7BF3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main .mockup img{
+    width: 640px;
+    height: 383px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer ul li {
+    display: inline;
+    padding: 8px;
+}
+
+.fa-brands {
+    color: #4C7BF3;
+}
+
+.fa-facebook-f {
+    margin: 0;
+    padding: 11px 14px;
+    border: 1px solid #C2D3FF;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    margin: 0;
+    padding: 11px 11px;
+    border: 1px solid #C2D3FF;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    margin: 0;
+    padding: 11px 12px;
+    border: 1px solid #C2D3FF;
+    border-radius: 50%;
+}
+
+.copyright p {
+    color: #969696;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+a {
+    color: white;
+}
+
+.main .email .submit:hover {
+    background-color: #C2D3FF;
+    border-color: #C2D3FF;
+}
+
+.fa-brands:hover {
+    background-color: #4C7BF3;
+    color: white;
+    border-color: #4C7BF3;
+}

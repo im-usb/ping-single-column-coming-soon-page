@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <!--linking css-->
+  <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
   <!--Main Section of the page-->
@@ -29,9 +29,9 @@
         <h1 class="heading"><span class="heading-grey">We are launching </span><span class="heading-black">soon!</span></h1> 
         <p class="text">Subscribe and get notified</p>
         <div class="email">
-          <form>
+          <form id="email-form">
             <input type="email" class="email-input" name="email" placeholder="Your email address..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-            <input type="submit" value="Notify Me" class="submit"> 
+            <button class="submit" form="email-form" formaction="/single-column-page">Notify Me</button>
           </form> 
         </div>
         <!--illustration image-->

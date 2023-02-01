@@ -6,21 +6,18 @@ body {
 
 .container {
     max-width: 712px;
-    max-height: 890px;
     text-align: center;
     margin: 0 auto;
 }
 
 header {
-    margin-top: 80px;
-    padding-bottom: 40px;
+    margin: 80px 0 32px 0;
 }
 
 .main .heading {
     font-size: 48px;
     line-height: 60px;
-    padding-bottom: 16px;
-    margin: 0;
+    margin: 0 0 15px 0;
 }
 
 .main .heading .heading-black {
@@ -34,12 +31,11 @@ header {
 }
 
 .main .text {
-    margin: 0;
-    padding-bottom: 40px;
+    margin: 0 0 40px 0;
 }
 
 .main .email {
-    padding-bottom: 90px;
+    margin: 0 0 90px 0;
 }
 
 .main .email .email-input{
@@ -50,6 +46,7 @@ header {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
     margin-right: 16px;
+    color: #B8C7ED;
 }
 
 .main .email .submit {
@@ -66,7 +63,6 @@ header {
 
 .main .mockup img{
     width: 640px;
-    height: 383px;
 }
 
 footer ul{
@@ -116,13 +112,19 @@ a {
     color: white;
 }
 
+.main .email .email-input::placeholder{
+    color: #B8C7ED;
+}
+
 .main .email .submit:hover {
     background-color: #C2D3FF;
     border-color: #C2D3FF;
+    cursor: pointer;
 }
 
 .fa-brands:hover {
     background-color: #4C7BF3;
     color: white;
     border-color: #4C7BF3;
+    cursor: pointer;
 }
